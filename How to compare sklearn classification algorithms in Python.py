@@ -238,6 +238,7 @@ plt.figure(figsize=(10, 8))
 x = np.arange(len(model_names))
 width = 0.2
 
+
 plt.bar(x, roc_auc_scores, width, label="ROC AUC Scores")
 plt.bar(x + width, accuracy_scores, width, label="Accuracy")
 plt.bar(x + 2 * width, precision_scores, width, label="Precision")
