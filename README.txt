@@ -39,6 +39,7 @@ $ git clone https://github.com/joaopaulobarbosa/TCC_2023.git
 
 8. Abra o arquivo "model comparison roc auc.py" no VS Code Studio.
 Na janela de exibição, no canto superior à direita, clique no ícone de seta ao lado de "Run or debug". Escolha a opção "Run this current file in interactive window". O código será executado em uma janela interativa do Jupyter notebook, o que vai possibilitar plotar informações gráficas no output do código.
+
 O mesmo pode ser feito para executar os arquivos:
   tunning KNeighborsClassifier with f1 refit.py
   tunning LogisticRegression with f1 refit.py
@@ -61,7 +62,7 @@ São eles:
   "Coursera_original_university_name_fixed.csv", contendo o dataset com os nomes de universidades da coluna "University" corrigidos.
 
   "train.csv", com o dataset de treino
-  
+
   "test.csv", com o dataset de teste,
 
 No diretório "resultados", há os resultados finais de execução dos códigos de tunning e de comparação dos modelos a que se referem o relatório técnico "DESENVOLVIMENTO DE UMA APLICAÇÃO DE APRENDIZADO DE MÁQUINA PARA CLASSIFICAÇÃO MULTICLASSE DE MOOCS: APRIMORANDO A AVALIAÇÃO DA DIFICULDADE DOS CURSOS". 
