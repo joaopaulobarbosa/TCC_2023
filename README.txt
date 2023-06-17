@@ -39,3 +39,11 @@ $ git clone https://github.com/joaopaulobarbosa/TCC_2023.git
 
 8. Abra o arquivo "model comparison roc auc.py" no VS Code Studio.
 Na janela de exibição, no canto superior à direita, clique no ícone de seta ao lado de "Run or debug". Escolha a opção "Run this current file in interactive window". O código será executado em uma janela interativa do Jupyter notebook, o que vai possibilitar plotar informações gráficas no output do código.
+O mesmo pode ser feito para executar os arquivos:
+  tunning KNeighborsClassifier with f1 refit.py
+  tunning LogisticRegression with f1 refit.py
+  tunning RandomForestClassifier with f1 refit.py
+
+No arquivo model comparison roc auc.py, se concentra o código para comparação entre os modelos RandomForestClassifier, LogisticRegression e KNeighborsClassifier.
+
+Nos arquivos "tunning RandomForestClassifier with f1 refit.py", "tunning LogisticRegression with f1 refit.py" e "tunning KNeighborsClassifier with f1 refit.py" se concentram os códigos de hyperparameter tunning dos modelos.
