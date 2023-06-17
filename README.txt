@@ -47,3 +47,7 @@ O mesmo pode ser feito para executar os arquivos:
 No arquivo model comparison roc auc.py, se concentra o código para comparação entre os modelos RandomForestClassifier, LogisticRegression e KNeighborsClassifier.
 
 Nos arquivos "tunning RandomForestClassifier with f1 refit.py", "tunning LogisticRegression with f1 refit.py" e "tunning KNeighborsClassifier with f1 refit.py" se concentram os códigos de hyperparameter tunning dos modelos.
+
+Na pasta "resultados", há os resultados finais de execução dos códigos de tunning e de comparação dos modelos a que se referem o relatório técnico "DESENVOLVIMENTO DE UMA APLICAÇÃO DE APRENDIZADO DE MÁQUINA PARA CLASSIFICAÇÃO MULTICLASSE DE MOOCS: APRIMORANDO A AVALIAÇÃO DA DIFICULDADE DOS CURSOS". 
+
+Quando da nova execução dos códigos para testagem, esta pasta não será alterada. Todos os novos arquivos com resultados serão disponibilizados na pasta raiz.
