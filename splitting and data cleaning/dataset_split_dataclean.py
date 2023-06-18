@@ -18,7 +18,7 @@ import sys, os
 
 # Read the CSV file into a DataFrame
 coursera = pd.read_csv(
-    "Coursera_original_university_name_fixed.csv", sep=";", encoding="latin-1"
+    "coursera_original_university_name_fixed.csv", sep=";", encoding="latin-1"
 )
 # print(coursera.head())
 
